@@ -1,7 +1,7 @@
-package com.estudando.cardapio.service;
+package com.estudando.cardapio.domain.service;
 
-import com.estudando.cardapio.model.Food;
-import com.estudando.cardapio.repository.FoodRepository;
+import com.estudando.cardapio.domain.entity.Food;
+import com.estudando.cardapio.domain.repository.FoodRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

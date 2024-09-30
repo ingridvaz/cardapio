@@ -1,21 +1,18 @@
-package com.estudando.cardapio.model;
+package com.estudando.cardapio.api.response;
 
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-@Entity
-@Table(name = "food")
 @Getter
+@Setter
+@NoArgsConstructor
 @AllArgsConstructor
+public class FoodResponseDto {
 
-public class Food {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
     private String image;
     private Double price;
-
 }

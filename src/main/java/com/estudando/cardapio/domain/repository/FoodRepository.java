@@ -1,6 +1,6 @@
-package com.estudando.cardapio.repository;
+package com.estudando.cardapio.domain.repository;
 
-import com.estudando.cardapio.model.Food;
+import com.estudando.cardapio.domain.entity.Food;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
